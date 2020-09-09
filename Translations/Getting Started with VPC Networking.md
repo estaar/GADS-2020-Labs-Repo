@@ -7,6 +7,11 @@
 
 # Task 1. Explore the default network
 Start Cloud Shell
+1. In GCP console, on the top right toolbar, click the Open Cloud Shell button.
+![Cloud Shell icon](https://cdn.qwiklabs.com/vdY5e%2Fan9ZGXw5a%2FZMb1agpXhRGozsOadHURcR8thAQ%3D)
+
+
+2. Click **Continue**. ![Continue icon](https://cdn.qwiklabs.com/lr3PBRjWIrJ%2BMQnE8kCkOnRQQVgJnWSg4UWk16f0s%2FA%3D)
 ## View the subnets in the default network:
 The default network has a subnet in each Google Cloud region. Enter the command below to see the subnets
 
