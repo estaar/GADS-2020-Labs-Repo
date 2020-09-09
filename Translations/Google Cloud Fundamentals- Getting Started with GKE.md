@@ -55,7 +55,7 @@ gcloud compute instances list
 # Task 4: Run and deploy a container
 1. From your Cloud Shell, launch a single instance of the nginx container.
 ```console
-kubectl create deploy nginx --image=nginx:1.17.10 --nodes=1
+kubectl create deploy nginx --image=nginx:1.17.10
 ```
 In Kubernetes, all containers run in pods. This use of the kubectl create command caused Kubernetes to create a deployment consisting of a single pod containing the nginx container.
 
