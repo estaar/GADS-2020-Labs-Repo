@@ -144,15 +144,15 @@ exit
 ```
 
 ## Remove the allow-ssh firewall rules
-Remove the allow-ssh firewall rule and try to SSH to mynet-us-vm.
+Remove the allow-ssh firewall rule and try to SSH to **mynet-us-vm**.
 1. Switch to the cloud console terminal
-2. Remove the allow-ssh firewall rule and try to ssh into mynet-us-vm:
+2. Remove the allow-ssh firewall rule and try to ssh into **mynet-us-vm**:
 
 ``` console
 gcloud compute firewall rules delete mynetwork-allow-ssh -q
 ```
 
-3. Try to ssh into  the europe-west1-vm
+3. Try to ssh into  the **europe-west1-vm**
 ``` console
 gcloud compute ssh --zone=europe-west1-c mynet-eu-vm
 ```
